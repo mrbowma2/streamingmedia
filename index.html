@@ -14,144 +14,177 @@
         <h1>Smooth Jazz</h1>
         <p>This station is dedicated to the soothing sounds of smooth jazz. This genre of commercially oriented
             crossover jazz became dominant in the 1980s and the early 1990s.</p>
+        <nav>
+            <input class="menu-btn" type="checkbox" id="menu-btn">
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul>
+                <li class="muzak"><a href="home">MuzakMaker</a></li>
+                <li class="nav-select"><a href="#trending">Trending<br>Songs</a></li>
+                <li class="nav-select"><a href="#your-playlists">Your<br>Playlists</a></li>
+                <li class="nav-select"><a href="#curated">Curated<br>Playlists</a></li>
+                <li class="nav-select"><a href="user"><img src="images/duke-silver.png" alt="User profile photo"></a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li class="muzak"><a href="home">MuzakMaker</a></li>
-            <li class="nav-select"><a href="#trending">Trending<br>Songs</a></li>
-            <li class="nav-select"><a href="#playlists">Your<br>Playlists</a></li>
-            <li class="nav-select"><a href="#curated">Curated<br>Playlists</a></li>
-            <li class="nav-select"><a href="user"><img src="images/duke-silver.png" alt="User profile photo"></a>
-            </li>
-        </ul>
-    </nav>
-
     <main>
         <section id="trending">
             <h2>Trending Songs</h2>
             <div class="scroll">
-                <div>
-                    <h3>Aloma</h3>
-                    <dl>
-                        <dt>Artist</dt>
-                        <dd>Cali</dd>
-                    </dl>
+                <section>
+                    <div>
+                        <h3>Aloma</h3>
+                        <dl>
+                            <dt>Artist</dt>
+                            <dd>Cali</dd>
+                        </dl>
+                    </div>
                     <img src="images/aloma-cover.png" alt="A dove flying over a dark backdrop.">
                     <audio controls src="audio/aloma.mp3"></audio>
+                </section>
+                <section>
                     <div>
                         <h3>My Road</h3>
                         <dl>
                             <dt>Artist</dt>
                             <dd>Nesterouk</dd>
                         </dl>
-                        <img src="images/my-road-cover.png"
-                            alt="A flat desert road with a mountain in the background and a vibrant blue sky.">
-                        <audio controls src="audio/my-road.mp3"></audio>
                     </div>
+                    <img src="images/my-road-cover.png"
+                        alt="A flat desert road with a mountain in the background and a vibrant blue sky.">
+                    <audio controls src="audio/my-road.mp3"></audio>
+                </section>
+                <section>
                     <div>
                         <h3>Papaya</h3>
                         <dl>
                             <dt>Artist</dt>
                             <dd>Dredstudio</dd>
                         </dl>
-                        <img src="images/papaya-cover.png" alt="A papaya cut in half over a green backdrop.">
-                        <audio controls src="audio/papaya.mp3"></audio>
                     </div>
+                    <img src="images/papaya-cover.png" alt="A papaya cut in half over a green backdrop.">
+                    <audio controls src="audio/papaya.mp3"></audio>
+                </section>
+                <section>
                     <div>
                         <h3>Smoothies</h3>
                         <dl>
                             <dt>Artist</dt>
                             <dd>Black Rhomb</dd>
                         </dl>
-                        <img src="images/smoothies-cover.png"
-                            alt="A spread of fruit with a mason jar containing a pink smoothie with a metal straw.">
-                        <audio controls src="audio/smoothies.mp3"></audio>
                     </div>
+                    <img src="images/smoothies-cover.png"
+                        alt="A spread of fruit with a mason jar containing a pink smoothie with a metal straw.">
+                    <audio controls src="audio/smoothies.mp3"></audio>
+                </section>
+                <section>
                     <div>
                         <h3>Successful Performance</h3>
                         <dl>
                             <dt>Artist</dt>
                             <dd>Ricky Bombino</dd>
                         </dl>
-                        <img src="images/successful-performance-cover.png"
-                            alt="A man in a red shirt with his hands in fists looking elated.">
-                        <audio controls src="audio/successful-performance.mp3"></audio>
                     </div>
-                </div>
+                    <img src="images/successful-performance-cover.png"
+                        alt="A man in a red shirt with his hands in fists looking elated.">
+                    <audio controls src="audio/successful-performance.mp3"></audio>
+                </section>
             </div>
             <button>More Trending</button>
         </section>
-        <section id="playlists">
-            <h2>Your Playlists</h2>
-            <div>
-                <div class="your-containers">
-                    <img src="images/best-of-2020-cover.png" alt="The year 2020 with the numbers stacked on fire.">
-                    <h3>Best of 2020</h3>
-                    <p>The music that got you through the lock down.</p>
+        <div class="container">
+            <section id="your-playlists" class="playlists">
+                <h2>Your Playlists</h2>
+                <div class="playlist-scroll">
+                    <section>
+                        <img src="images/best-of-2020-cover.png" alt="The year 2020 with the numbers stacked on fire.">
+                        <div class="playlist-container">
+                            <h3>Best of 2020</h3>
+                            <p>The music that got you through the lock down.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/pumpkin-spice-cover.png"
+                            alt="A top down image of a latte in a mug with a rosetta.">
+                        <div class="playlist-container">
+                            <h3>Pumpkin Spice</h3>
+                            <p>Creamy and spicy, just like your favorite autumnal latte.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/quiet-storm-cover.png" alt="Vibrant blue and purple storm clouds">
+                        <div class="playlist-container">
+                            <h3>Quiet Storm</h3>
+                            <p>Slow tempos and relaxed rhythms.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/smooth-jazz-cover.png" alt="An older man looking proud.">
+                        <div class="playlist-container">
+                            <h3>Smooth Jazz</h3>
+                            <p>The pioneers of smooth jazz.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/smooth-study-cover.png"
+                            alt="The arms of someone in a mustard colored sweater typing on a laptop.">
+                        <div class="playlist-container">
+                            <h3>Smooth Study</h3>
+                            <p>Background music to keep you going while you study.</p>
+                        </div>
+                    </section>
                 </div>
-                <div class="your-containers">
-                    <img src="images/pumpkin-spice-cover.png"
-                        alt="A top down image of a latte in a mug with a rosetta.">
-                    <h3>Pumpkin Spice</h3>
-                    <p>Creamy and spicy, just like your favorite autumnal latte.</p>
+                <button>All your playlists</button>
+            </section>
+            <section id="curated" class="playlists">
+                <h2>Your Playlists</h2>
+                <div class="playlist-scroll">
+                    <section>
+                        <img src="images/boozy-brunch-cover.png" alt="Several hands clinking their glasses together.">
+                        <div class="playlist-container">
+                            <h3>Boozy Brunch</h3>
+                            <p>Light up the afternoon with these energetic hits.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/dinner-party-cover.png" alt="A spread of food on a candlelit table.">
+                        <div class="playlist-container">
+                            <h3>Dinner Party</h3>
+                            <p>Background music to give your party life, but allow your guests to chat.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/mellow-cover.png"
+                            alt="An autumnal park with a bench in the center with two people sitting on it.">
+                        <div class="playlist-container">
+                            <h3>Mellow</h3>
+                            <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/jazz-chill-cover.png"
+                            alt="Either rose petals or a silky sheet crumpled up I genuinely can't tell.">
+                        <div class="playlist-container">
+                            <h3>Jazz and Chill</h3>
+                            <p>Set the mood with these silky sounds.</p>
+                        </div>
+                    </section>
+                    <section>
+                        <img src="images/smooth-saxophone-cover.png"
+                            alt="An in focus saxophone with other musicians out of focus in the background.">
+                        <div class="playlist-container">
+                            <h3>Jazz Saxophone</h3>
+                            <p>The greatest collection of your sax favorites.</p>
+                        </div>
+                    </section>
                 </div>
-                <div class="your-containers">
-                    <img src="images/quiet-storm-cover.png" alt="Vibrant blue and purple storm clouds">
-                    <h3>Quiet Storm</h3>
-                    <p>Slow tempos and relaxed rhythms.</p>
-                </div>
-                <div class="your-containers">
-                    <img src="images/smooth-jazz-cover.png" alt="An older man looking proud.">
-                    <h3>Smooth Jazz</h3>
-                    <p>The pioneers of smooth jazz.</p>
-                </div>
-                <div class="your-containers">
-                    <img src="images/smooth-study-cover.png"
-                        alt="The arms of someone in a mustard colored sweater typing on a laptop.">
-                    <h3>Smooth Study</h3>
-                    <p>Background music to keep you going while you study.</p>
-                </div>
-            </div>
-
-            <button>All your playlists</button>
-        </section>
-
-        <section id="curated">
-            <h2>Curated Playlists</h2>
-            <div>
-                <div>
-                    <h3>Boozy Brunch</h3>
-                    <p>Light up the afternoon with these energetic hits.</p>
-                    <img src="images/boozy-brunch-cover.png" alt="Several hands clinking their glasses together.">
-                </div>
-                <div>
-                    <h3>Dinner Party</h3>
-                    <p>Background music to give your party life, but allow your guests to chat.</p>
-                    <img src="images/dinner-party-cover.png" alt="A spread of food on a candlelit table.">
-                </div>
-                <div>
-                    <h3>Mellow</h3>
-                    <p>Relax after a stressful day with this collection of extra smooth jazz.</p>
-                    <img src="images/mellow-cover.png"
-                        alt="An autumnal park with a bench in the center with two people sitting on it.">
-                </div>
-                <div>
-                    <h3>Jazz and Chill</h3>
-                    <p>Set the mood with these silky sounds.</p>
-                    <img src="images/jazz-chill-cover.png"
-                        alt="Either rose petals or a silky sheet crumpled up I genuinely can't tell.">
-                </div>
-                <div>
-                    <h3>Jazz Saxophone</h3>
-                    <p>The greatest collection of your sax favorites.</p>
-                    <img src="images/smooth-saxophone-cover.png"
-                        alt="An in focus saxophone with other musicians out of focus in the background.">
-                </div>
-            </div>
-            <button>More Curated</button>
-        </section>
+                <button>More Curated</button>
+            </section>
+        </div>
     </main>
-    <footer>Copyright 2022 Smooth Jazz</footer>
+    <footer>
+        <p>Copyright 2022 Smooth Jazz</p>
+    </footer>
 </body>
 
 </html>
